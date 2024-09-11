@@ -12,8 +12,8 @@ two weeks to write the CSS and lots of class time, so challenge yourself with a 
 - Open this repository with GitHub Desktop using the green button.
 - In GitHub Desktop, right click the repository name, then select Open in Visual Studio Code.
 - In Visual Studio code, open the terminal panel.
-- **The first time you work on this project:** Type `npm install` and hit enter. Wait for the installation to finish.
-- **All other times:** Type `npm run start`. A new window in your default browser will show up. Nothing will be present.
+- **The first time you work on this project only:** Type `npm install` and hit enter. Wait for the installation to finish.
+- **Every time:** Type `npm run start`. A new window in your default browser will show up. Nothing will be present.
 - **In src/index.html:** Open the file and add an `<h1>Title</h1>` tag inside the body tag. Save the file.
 - Your change should show up in the window!
 
