@@ -1,26 +1,153 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
-
-.image-container {
-    display: inline-grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
-    gap: 15px; 
-    justify-content: center; 
+.iphone-15, 
+.iphone-15 * {
+  box-sizing: border-box;
 }
-.image-container{ 
-    width: 332px;
-    height: 92px;
-    flex-shrink: 0;}
-    .my-element {
-        width: 474px;
-        height: 164px;
-        flex-shrink: 0;
-        color: #000;
-        text-align: right;
-        font-family: 'Alike', serif;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-      }
-      
+
+.iphone-15 {
+  background: #d9d9d9;
+  height: 5281px;
+  position: relative;
+  overflow: auto;
+}
+
+.southern-living-logogallery {
+  width: 459px;
+  height: 185px;
+  position: absolute;
+  left: -9px;
+  top: 5145px;
+  object-fit: cover;
+}
+
+.blackberry-cobbler-img-1 {
+  border-radius: 21px;
+  width: 389px;
+  height: 221px;
+  position: absolute;
+  left: 20px;
+  top: 12px;
+}
+
+.ellipse-1 {
+  border-radius: 50%;
+  width: 260px;
+  height: 240px;
+  position: absolute;
+  left: 85px;
+  top: 27px;
+}
+
+.rectangle-48 {
+  border-radius: 69px;
+  width: 335px;
+  height: 162px;
+  position: absolute;
+  left: 47px;
+  top: 51px;
+}
+
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 430px;
+  position: absolute;
+  left: 0px;
+  top: 144px;
+}
+
+.rectangle-50 {
+  background: #99627b;
+  border: 3px solid #5d000a;
+  height: 264px;
+  position: relative;
+}
+
+.frame-4 {
+  background: #fff;
+  border: 1px solid #99627b;
+  width: 379px;
+  height: 169px;
+  position: relative;
+}
+
+.rectangle-51, .rectangle-53, .rectangle-54, 
+.rectangle-55, .rectangle-56, .rectangle-57, 
+.rectangle-58, .rectangle-59 {
+  background: #99627b;
+  border: 3px solid #5d000a;
+}
+
+.blackberry-cobbler-img-2 {
+  width: 230px;
+  height: 162px;
+  position: absolute;
+  left: 340px;
+  top: 215px;
+  transform: rotate(90deg);
+  object-fit: cover;
+}
+
+.blackberry-cobbler-img-3 {
+  width: 224.96px;
+  height: 158.95px;
+  position: absolute;
+  left: 145.32px;
+  top: 561.26px;
+  transform: rotate(90.093deg);
+  object-fit: cover;
+}
+
+.text-right {
+  color: #fff;
+  text-align: right;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.body-copy, 
+.body-copy2, 
+.body-copy3, 
+.body-copy4 {
+  color: #d9d9d9;
+  text-align: center;
+  font-family: "AlikeAngular-Regular", sans-serif;
+}
+
+.ingredients, 
+.heading-text, 
+.heading-text2 {
+  font-family: "Alike-Regular", sans-serif;
+}
+
+.active-time-info {
+  color: #7f435e;
+  font-family: "AlikeAngular-Regular", sans-serif;
+  font-size: 10px;
+}
+
+.prepare-text, 
+.bake-text {
+  font-family: "Alike-Regular", sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.blackberry-cobbler-img-4 {
+  width: 366px;
+  height: 269.67px;
+  position: absolute;
+  left: 38px;
+  top: 4547.47px;
+  object-fit: cover;
+}
+
+.recipe-details {
+  color: #fff;
+  text-align: center;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 16px;
+}
