@@ -1,49 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
 
-/* Flexbox grid for images */
 .image-container {
     display: inline-grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
     gap: 15px; 
     justify-content: center; 
 }
-
-/* Image styles */
-img {
-    border-radius: 15px; 
-    width: 50%; 
-    height: auto;
-    margin: 10px; 
-}
-
-/* Additional styling for body font */
-body {
-    font-family: 'Alike', serif;
-    padding: 20px; 
-    text-align: center;
-}
-
-/* Center the entire list of ingredients */
-.ingredients-list {
-    list-style-type: none; /* Remove default bullet points */
-    padding-left: 0; /* Remove default padding */
-    text-align: center; /* Center text in the list */
-}
-
-/* Style individual list items */
-.ingredients-list li {
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center bullet and text */
-    align-items: center; /* Vertically center the items */
-    margin: 10px 0; /* Add margin for spacing between items */
-    font-size: 1.2em; /* Adjust font size as desired */
-}
-
-/* Custom bullet style */
-.ingredients-list li::before {
-    content: "•"; /* Use a custom bullet character */
-    margin-right: 10px; /* Space between bullet and text */
-    font-size: 1.5em; /* Adjust bullet size */
-    line-height: 1; /* Align bullet with text */
-}
+.image-container{ 
+    width: 332px;
+    height: 92px;
+    flex-shrink: 0;}
+    .my-element {
+        width: 474px;
+        height: 164px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: right;
+        font-family: 'Alike', serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      
